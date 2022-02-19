@@ -23,9 +23,9 @@ const NewsCards = ({ arr, activeArticle }) => {
           <div class="imgBox"></div>
 
           <div class="contentBox">
-            <h2 class="price">Try saying</h2>
-            <h3>'Give me the news'</h3>
-            <h3>to get the latest programming news</h3>
+            <h1 class="price">&dArr; Try saying</h1>
+            <h2>&ldquo;Give me the news&rdquo;</h2>
+            <h2>to get the latest programming news</h2>
 
             <a href="" class="buy">
               click voice icon
@@ -36,9 +36,9 @@ const NewsCards = ({ arr, activeArticle }) => {
           <div class="imgBox"></div>
 
           <div class="contentBox">
-            <h2 class="price">Try saying</h2>
-            <h3>'Go to Search'</h3>
-            <h3>to search the latest programming questions</h3>
+            <h1 class="price">&dArr; Try saying</h1>
+            <h2>&ldquo; Go to Search &rdquo;</h2>
+            <h2>to search the latest tech questions</h2>
             <a href="" class="buy">
               click voice icon
             </a>

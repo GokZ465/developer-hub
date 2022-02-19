@@ -141,7 +141,7 @@ span.population {
   display: block;
 }
 .search button {
-  background: #f1356d;
+  background: #b60c67;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -302,6 +302,7 @@ body {
 .card-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .card {
   position: relative;
@@ -311,6 +312,17 @@ body {
   border-radius: 20px;
   overflow: hidden;
   margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox h1 {
+  margin: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contentBox h2 {
+  margin: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .card::before {
