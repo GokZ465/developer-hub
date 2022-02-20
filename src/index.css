@@ -140,7 +140,8 @@ span.population {
   box-sizing: border-box;
   display: block;
 }
-.search button {background: #0d73a7;
+.search button {
+  background: #0d73a7;
   color: #fff;
   border: 0;
   padding: 8px;
