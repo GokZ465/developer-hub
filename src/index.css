@@ -440,3 +440,38 @@ body {
 .searchBtn-container {
   display: flex;
 }
+
+/* search page api part css  */
+
+.output {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 40px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  transform: translateX(-160px);
+  background: linear-gradient(to right, #0d73a7 0%, #f8b9d9 100%);
+}
+.output a {
+  color: #023c64;
+}
+.output div {
+  flex-direction: column;
+  font-size: 17px;
+
+  color: whitesmoke;
+  margin: 30px;
+  /* background-color: white;*/
+}
+
+.output span {
+  display: none;
+}
+.output :hover {
+  color: #0af5f1bb;
+  font-size: 18px;
+}
