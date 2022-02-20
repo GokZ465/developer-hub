@@ -21,7 +21,9 @@ const SearchPage = () => {
 
   const handleClear = () => {
     abortCont.abort();
+
     document.querySelector(".output").innerHTML = "";
+    setTitle("");
     //document.querySelector("output").removeChild();
   };
   //----------------------------------Output_DATA------------------------------//
