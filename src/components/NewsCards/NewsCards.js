@@ -27,7 +27,7 @@ const NewsCards = ({ arr, activeArticle }) => {
             <h2>&ldquo;Give me the news&rdquo;</h2>
             <h2>to get the latest programming news</h2>
 
-            <a href="" class="buy">
+            <a href="/" class="buy">
               click voice icon
             </a>
           </div>
@@ -39,7 +39,7 @@ const NewsCards = ({ arr, activeArticle }) => {
             <h1 class="price">&dArr; Try saying</h1>
             <h2>&ldquo; Go to Search &rdquo;</h2>
             <h2>to search the latest tech questions</h2>
-            <a href="" class="buy">
+            <a href="/" class="buy">
               click voice icon
             </a>
           </div>
