@@ -17,7 +17,7 @@ export default makeStyles({
     width: "100%",
     backgroundColor: "#dedede",
     justifyContent: "space-between",
-    borderBottom: "10px solid #7c7c7c",
+    borderBottom: "10px solid #0d73a7",
   },
   activeCard: {
     borderBottom: "10px solid #22289a",
@@ -32,7 +32,7 @@ export default makeStyles({
   },
   title: {
     padding: "0 16px",
-    color: "black"
+    color: "black",
   },
   cardActions: {
     padding: "0 16px 8px 16px",
