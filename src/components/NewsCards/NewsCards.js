@@ -26,6 +26,7 @@ const NewsCards = ({ arr, activeArticle }) => {
             <h1 class="price">&dArr; Try saying</h1>
             <h2>&ldquo;Give me the news&rdquo;</h2>
             <h2>to get the latest programming news</h2>
+            <h2>-- Please allow microphone access</h2>
 
             <a href="/" class="buy">
               click voice icon
